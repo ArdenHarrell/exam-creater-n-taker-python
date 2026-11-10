@@ -3,7 +3,7 @@
     "title": "Python Basics",
     "version": "1.1",
     "author": "Arden Harrell",
-    "duration_minutes": 10,
+    "duration_minutes": 13,
     "passing_score_percentage": 85
   },
   "questions": [
@@ -129,6 +129,56 @@
       ],
       "correct_answer": "A",
       "explanation": "The most common collection types in Python are lists, tuples, sets, and dictionaries."
+    },
+    {
+      "id": 11,
+      "type": "multiple-choice",
+      "subject": "Operators",
+      "text": "Which of the following is NOT a valid operator in Python?",
+      "options": [
+        {"key": "A", "value": "+"},
+        {"key": "B", "value": "-"},
+        {"key": "C", "value": "*"},
+        {"key": "D", "value": "^"}
+      ],
+      "correct_answer": "D",
+      "explanation": "'^' is not a valid operator for exponentiation in Python. The correct operator for exponentiation is '**'."
+    },
+    {
+      "id": 12,
+      "type": "multiple-choice",
+      "subject": "Control Flow",
+      "text": "Which of the following is NOT a valid control flow statement in Python?",
+      "options": [
+        {"key": "A", "value": "if"},
+        {"key": "B", "value": "for"},
+        {"key": "C", "value": "while"},
+        {"key": "D", "value": "switch"}
+      ],
+      "correct_answer": "D",
+      "explanation": "'switch' is not a valid control flow statement in Python. Python uses 'if', 'for', and 'while' for control flow."
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "subject": "Error Handling",
+      "text": "Which of the following is NOT a valid exception type in Python?",
+      "options": [
+        {"key": "A", "value": "ValueError"},
+        {"key": "B", "value": "TypeError"},
+        {"key": "C", "value": "IndexError"},
+        {"key": "D", "value": "FileNotFoundError"},
+        {"key": "E", "value": "MemoryError"},
+        {"key": "F", "value": "SyntaxError"},
+        {"key": "G", "value": "ZeroDivisionError"},
+        {"key": "H", "value": "KeyError"},
+        {"key": "I", "value": "AttributeError"},
+        {"key": "J", "value": "ImportError"},
+        {"key": "K", "value": "NameError"},
+        {"key": "L", "value": "MegaOverflowError"}
+      ],
+      "correct_answer": "L",
+      "explanation": " 'MegaOverflowError' is not a valid exception type in Python. The valid exception type should have been OverflowError."
     }
   ]
 }
