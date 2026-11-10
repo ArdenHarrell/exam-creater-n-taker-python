@@ -1,0 +1,14 @@
+# title: Python Basics
+# version: 1.0
+# author: Arden Harrell
+# duration_minutes: 4
+# passing_score_percentage: 85
+id,type,subject,text,options,correct_answer,explanation
+1,multiple-choice,Geek History,Who was the author of the Python programming language?,A=Jillian Glopp -- snake bounty hunter|B=Guido van Rossum -- author of ABC|C=Elon Musk -- founder of SpaceX|D=Walter Bright -- creator of D,B,Guido van Rossum is the creator of the Python programming language.
+2,short-answer,Output,What is the built-in function for showing output?,,print,The print() function is used to display output in Python.
+3,true-false,Python Syntax,"Will this code provoke an error?
+
+name, occupation, city = ""Cindy"", ""secretary"", ""Seattle""
+firstGreeting = f""Hi! I am {name} and I work as a {occupation} in {city}.""
+print(firstGreeting)",T=True|F=False,F,No. It will print the formatted string with the values of the variables.
+4,short-answer,Keyboard,What is the built-in function for getting data from the keyboard?,,input,The input() function is used to get user input in Python.

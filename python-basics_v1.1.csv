@@ -1,0 +1,17 @@
+# title: Python Basics
+# version: 1.1
+# author: Arden Harrell
+# duration_minutes: 7
+# passing_score_percentage: 85
+id,type,subject,text,options,correct_answer,explanation
+1,multiple-choice,Geek History,Who was the author of the Python programming language?,A=Jillian Glopp -- snake bounty hunter|B=Guido van Rossum -- author of ABC|C=Elon Musk -- founder of SpaceX|D=Walter Bright -- creator of D,B,Guido van Rossum is the creator of the Python programming language.
+2,short-answer,Output,What is the built-in function for showing output?,,print,The print() function is used to display output in Python.
+3,true-false,Python Syntax,"Will this code provoke an error?
+
+name, occupation, city = ""Cindy"", ""secretary"", ""Seattle""
+firstGreeting = f""Hi! I am {name} and I work as a {occupation} in {city}.""
+print(firstGreeting)",T=True|F=False,F,No. It will print the formatted string: with the values of the variables.
+4,short-answer,Keyboard,What is the built-in function for getting data from the keyboard?,,input,The input() function is used to get user input in Python.
+5,multiple-choice,Data Types,Which of the following is NOT a data type in Python?,A=int|B=float|C=str|D=char,D,"'char' is not a data type in Python. The correct data types are int, float, and str."
+6,multiple-choice,Variable Definition,Which of the following is a valid variable name in Python?,A=myVariable|B=123variable|C=variable-name|D=class,A,"In Python, variable names must start with a letter or underscore and cannot contain spaces or special characters.  Also avoid using reserved keywords like 'class'."
+7,short-answer,Function Definition,What is the keyword used to define a function in Python?,,def,The 'def' keyword is used to define a function in Python.

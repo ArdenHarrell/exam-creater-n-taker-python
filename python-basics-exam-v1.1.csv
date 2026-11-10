@@ -1,0 +1,4 @@
+run_id,date_completed,exam_title,version,candidate,questions,answered,correct,percentage,passing_score,result,completion,seconds_used,subject_breakdown
+python-basics-v1.1-20261023-123914,2026-10-23 12:39:14,Python Basics,1.1,ArdMan-O-vich,7,7,7,100.0,85.0,PASS,finished,68.1,Geek History 1/1; Output 1/1; Python Syntax 1/1; Keyboard 1/1; Data Types 1/1; Variable Definition 1/1; Function Definition 1/1
+python-basics-v1.1-20261023-124504,2026-10-23 12:45:04,Python Basics,1.1,Susan,7,7,0,0.0,85.0,FAIL,finished,35.1,Geek History 0/1; Output 0/1; Python Syntax 0/1; Keyboard 0/1; Data Types 0/1; Variable Definition 0/1; Function Definition 0/1
+python-basics-v1.1-20261023-130353,2026-10-23 13:03:53,Python Basics,1.1,Bonnie,7,7,4,57.1,85.0,FAIL,finished,37.1,Geek History 1/1; Output 0/1; Python Syntax 1/1; Keyboard 0/1; Data Types 1/1; Variable Definition 1/1; Function Definition 0/1

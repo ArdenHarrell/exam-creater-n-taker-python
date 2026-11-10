@@ -1,0 +1,134 @@
+{
+  "exam_meta": {
+    "title": "Python Basics",
+    "version": "1.1",
+    "author": "Arden Harrell",
+    "duration_minutes": 10,
+    "passing_score_percentage": 85
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "subject": "Geek History",
+      "text": "Who was the author of the Python programming language?",
+      "options": [
+        {"key": "A", "value": "Jillian Glopp -- snake bounty hunter"},
+        {"key": "B", "value": "Guido van Rossum -- author of ABC"},
+        {"key": "C", "value": "Elon Musk -- founder of SpaceX"},
+        {"key": "D", "value": "Walter Bright -- creator of D"}
+      ],
+      "correct_answer": "B",
+      "explanation": "Guido van Rossum is the creator of the Python programming language."
+    },
+    {
+      "id": 2,
+      "type": "short-answer",
+      "subject": "Output",
+      "text": "What is the built-in function for showing output?",
+      "options": [],
+      "correct_answer": "print",
+      "explanation": "The print() function is used to display output in Python."
+    },
+    {
+      "id": 3,
+      "type": "true-false",
+      "subject": "Python Syntax",
+      "text": "Will this code provoke an error?\n\nname, occupation, city = \"Cindy\", \"secretary\", \"Seattle\"\nfirstGreeting = f\"Hi! I am {name} and I work as a {occupation} in {city}.\"\nprint(firstGreeting)",
+      "options": [
+        {"key": "T", "value": "True"},
+        {"key": "F", "value": "False"}
+      ],
+      "correct_answer": "F",
+      "explanation": "No. It will print the formatted string: with the values of the variables."
+    },
+    {
+      "id": 4,
+      "type": "short-answer",
+      "subject": "Keyboard",
+      "text": "What is the built-in function for getting data from the keyboard?",
+      "options": [],
+      "correct_answer": "input",
+      "explanation": "The input() function is used to get user input in Python."
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "subject": "Data Types",
+      "text": "Which of the following is NOT a data type in Python?",
+      "options": [
+        {"key": "A", "value": "int"},
+        {"key": "B", "value": "float"},
+        {"key": "C", "value": "str"},
+        {"key": "D", "value": "char"}
+      ],
+      "correct_answer": "D",
+      "explanation": "'char' is not a data type in Python. The correct data types are int, float, and str."
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "subject": "Variable Definition",
+      "text": "Which of the following is a valid variable name in Python?",
+      "options": [
+        {"key": "A", "value": "myVariable"},
+        {"key": "B", "value": "123variable"},
+        {"key": "C", "value": "variable-name"},
+        {"key": "D", "value": "class"}
+      ],
+      "correct_answer": "A",
+      "explanation": "In Python, variable names must start with a letter or underscore and cannot contain spaces or special characters.  Also avoid using reserved keywords like 'class'."
+    },
+    {
+      "id": 7,
+      "type": "short-answer",
+      "subject": "Function Definition",
+      "text": "What is the keyword used to define a function in Python?",
+      "options": [],
+      "correct_answer": "def",
+      "explanation": "The 'def' keyword is used to define a function in Python."
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "subject": "String Methods",
+      "text": "If you want to remove leading and trailing spaces and uppercase a string what function would you use?",
+      "options": [
+        {"key": "A", "value": "trim().upperCase()"},
+        {"key": "B", "value": "trim().toUpperCase()"},
+        {"key": "C", "value": "strip().upper()"},
+        {"key": "D", "value": "removeSpaces().makeUpperCase()"}
+      ],
+      "correct_answer": "C",
+      "explanation": "The strip() method removes leading and trailing spaces, and the upper() method converts the string to uppercase. Combining them as strip().upper() achieves both."
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "subject": "Data Types",
+      "text": "What are the most common primitive data types in Python?",
+      "options": [
+        {"key": "A", "value": "int, float, str, char"},
+        {"key": "B", "value": "int, float, str, bool"},
+        {"key": "C", "value": "int, float, str, list"},
+        {"key": "D", "value": "int, float, str, dict"}
+      ],
+      "correct_answer": "B",
+      "explanation": "The most common primitive data types in Python are integers (int), floating-point numbers (float), strings (str), and booleans (bool)."
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "subject": "Collections",
+      "text": "What are the most common collection types in Python?",
+      "options": [
+        {"key": "A", "value": "list, tuple, set, dict"},
+        {"key": "B", "value": "list, tuple, set, array"},
+        {"key": "C", "value": "list, tuple, set, queue"},
+        {"key": "D", "value": "list, tuple, set, stack"}
+      ],
+      "correct_answer": "A",
+      "explanation": "The most common collection types in Python are lists, tuples, sets, and dictionaries."
+    }
+  ]
+}
